@@ -1,0 +1,64 @@
+#grid{
+display: grid;
+grid-template-columns: repeat(7, 1fr); 
+  grid-template-rows: repeat(6, 1fr);
+  gap: 4px;
+  width: 60vw;
+  gap: 10px; 
+  background-color: #2196F3;
+  padding: 10px; 
+  border-radius: 10px; 
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* adjust as needed */
+}
+body {
+  background-color: whitesmoke /* adjust color as needed */
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.modal-content h2 {
+  text-align: center;
+  color: #333;
+}
+
+.modal-content p {
+  text-align: center;
+  color: #666;
+}
+
+.modal-content button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
